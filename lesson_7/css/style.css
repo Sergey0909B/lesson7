@@ -1,0 +1,387 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    color: #37393F;
+}
+/*-------------------------------------*/
+[class*= "__container"]{
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.wraper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.title{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-transform: capitalize;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.inline{
+    color: #40DDB6;
+    margin-left: 10px;
+}
+/*-------------------------------------*/
+.header {
+    padding: 25px 0;
+}
+.menu-logo {
+    display: inline-block;
+    margin: 0 195px 0 0;
+    vertical-align: middle;
+}
+.header-menu{
+    margin-bottom: 30px;
+}
+.logo-linc {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.logo-linc span{
+    color: #6B77E5;
+}
+.menu-list {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-item li{
+    display: inline-block;
+    margin: 0 40px 0 0;
+    text-decoration: underline;
+}
+.border{
+    border: 1px solid #DDDDDD;
+}
+/*-------------------------------------*/
+.licencing{
+    margin-bottom: 100px;
+}
+.licencing-center {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.square {
+    width: 12px;
+    height: 12px;
+    background: #40DDB6;
+    display: inline-block;
+}
+.information {
+    font-weight: 500;
+    line-height: 1.2;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.licencing-title {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+/*-------------------------------------*/
+.icons{
+    margin-bottom: 100px;
+}
+.icons-title {
+    margin-bottom: 11px;
+}
+.icons-text {
+    margin-bottom: 32px;
+    color: #7D7D7D;
+    line-height: 1.47;
+}
+.icons-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+/*-------------------------------------*/
+.photography{
+    margin-bottom: 100px;
+}
+.photography-title {
+    margin-bottom: 11px;
+}
+.photography-text {
+    color: #7D7D7D;
+    line-height: 1.47;
+    margin-bottom: 24px;
+}
+.photography-subtitle {
+    margin-bottom: 8px;
+}
+.photography-green {
+    color: #40DDB6;
+    line-height: 1.47;
+    margin-bottom: 24px;
+}
+/*-------------------------------------*/
+.fonts-title {
+    margin-bottom: 11px;
+}
+.title {
+}
+.fonts-text {
+    color: #7D7D7D;
+    line-height: 1.47;
+}
+.fonts-text a{
+    color: #40DDB6;
+}
+/*-------------ProjecT------------------------*/
+.project {
+    margin-bottom: 100px;
+}
+.project-container {
+    max-width: 860px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.project-title {
+    margin-bottom: 13px;
+}
+.project-text {
+    color: #7D7D7D;
+    line-height: 1.47;
+}
+.project-text p{
+    margin-bottom: 35px;
+}
+.project-list {
+    color: #7D7D7D;
+    line-height: 1.47;
+    margin-bottom: 35px;
+    padding-left: 20px;
+}
+.project-list li {
+    margin-bottom: 25px;
+}
+.project-paragraf {
+    color: #7D7D7D;
+    line-height: 1.47;
+    margin-bottom: 35px;
+}
+.project-roster {
+    color: #7D7D7D;
+    line-height: 1.47;
+    margin-bottom: 35px;
+    padding-left: 20px;
+}
+.project-roster li{
+    margin-bottom: 25px;
+}
+/*-------------------------------------*/
+
+.clothig{
+    font-family: Causten;;
+    font-size: 20px;
+    color: #807D7E;
+    margin-bottom: 100px;
+}
+.clothig-container{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.clothig-body {
+    padding-left: 20px;
+}
+.span{
+    display: inline-block;
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #8A33FD;
+    margin: 0 15px 0 -25px;
+    vertical-align: top;
+}
+.clothig-title {
+    color: #3C4242;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.56px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.clothig-subtitle {
+    font-family: Core Sans C;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+.clothig-text {
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
+.clothig-text p{
+    margin-bottom: 20px;
+}
+.clothig-text span{
+    font-weight: 700;
+}
+.clothig-see {
+    color: #807D7E;
+    font-family: Core Sans C;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
+/*-------------------------------------*/
+
+.develop {
+    color: #000;
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+    font-size: 0;
+    margin-bottom: 100px;
+}
+.develop-container {
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.develop-content {
+    max-width: 500px;
+    padding: 70px 0;
+    display: inline-block;
+    margin-right: 80px;
+}
+.develop-subtitle {
+    color: #D58417;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.develop-title {
+    font-size: 64px;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+.develop-text {
+    color: #606060;
+    font-size: 30px;
+    line-height: 1.4;
+}
+/*-------------------------------------*/
+.develop-image{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 0;
+}
+.develop-image-left{
+    margin-right: 30px;
+    width: 177px;
+    height: 336px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #502203;
+    border-radius: 235px
+}
+.develop-image-left img{
+    margin-left: -10px;
+    padding-top: 14px;
+    border-radius: 235px
+}
+.develop-image-right{
+    width: 307px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #502203;
+    border-radius: 235px
+}
+
+.develop-image-right img{
+    margin-left: -11px;
+    padding-top: 19px;
+    border-radius: 235px
+}
+/*-------------------------------------*/
+.practica {
+    margin-bottom: 100px;
+}
+.practica__container {
+}
+.practica-content {
+    display: inline-block;
+}
+.practica-block {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.block1{
+    border: 5px solid #502203;
+    border-radius: 20px;
+
+}
+
+.block2{
+    border: 2px dotted #261e95;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.block3{
+    border: 2px dashed #1e9538;
+    border-radius: 20px;
+}
+
+.block4{
+    border: 2px double #a9361c;
+}
+
+.block5{
+    outline: 8px solid #502203;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.block6{
+    box-shadow: 5px 5px 5px 3px  #6B77E5;
+    opacity: 0.8;
+}
+
+
+.footer {
+    background-color: #37393F;
+    padding: 40px 0;
+}
+.footer__container {
+}
+.footer-content {
+}
+.footer-image {
+}
+.footer-linc {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.footer-linc span{
+    color: #40DDB6;
+} 
